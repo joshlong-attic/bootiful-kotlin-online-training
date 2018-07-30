@@ -1,5 +1,4 @@
-CREATE TABLE CUSTOMERS (
-
-  ID   BIGINT AUTO_INCREMENT PRIMARY KEY  NOT NULL,
-  NAME VARCHAR(255)                       NOT NULL
-);
+create table CUSTOMERS (
+  ID bigint auto_increment primary key not null,
+  NAME varchar(255) not null
+) ;

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.fu.module:spring-fu-mongodb:0.0.1.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu.module/spring-fu-mongodb/0.0.1.BUILD-SNAPSHOT/942e11adb888b3444b36602321adb535319f4c33/spring-fu-mongodb-0.0.1.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu.module/spring-fu-mongodb/0.0.1.BUILD-SNAPSHOT/826b7e157ba3ed2488b0524f969136f9348edaf9/spring-fu-mongodb-0.0.1.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
