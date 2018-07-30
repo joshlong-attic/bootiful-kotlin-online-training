@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="reactive-webapp:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-java-parameters -Xjsr305=strict -Xjvm-default=enable" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/test" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="reactive-webapp" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="reactive-webapp_main" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu.module:spring-fu-logging-logback:0.0.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu.module:spring-fu-webflux-netty:0.0.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu.module:spring-fu-test:0.0.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu.module:spring-fu-logging:0.0.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu.module:spring-fu-webflux:0.0.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty:0.8.0.M1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-test:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-test:3.2.0.M3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu:spring-fu:0.0.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-webflux:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.2.0.M3" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-engine:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.51" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.27.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.0.RC1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.0" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="reactive-webapp_main" />
+</module>

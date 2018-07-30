@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.fu.module:spring-fu-webflux-netty:0.0.1.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu.module/spring-fu-webflux-netty/0.0.1.BUILD-SNAPSHOT/8156b8e23a2f6b92854d979c8b02d9a58313c461/spring-fu-webflux-netty-0.0.1.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu.module/spring-fu-webflux-netty/0.0.1.BUILD-SNAPSHOT/bf366dc4dd78097aedf64888e91d06e27ebf1f57/spring-fu-webflux-netty-0.0.1.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
