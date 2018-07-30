@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Bean
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 import org.springframework.transaction.support.TransactionTemplate
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RestController
 import javax.sql.DataSource
 
 @SpringBootApplication
@@ -79,6 +81,16 @@ class ExposedCustomerService(private val tt: TransactionTemplate) : CustomerServ
 			it[Customers.name] = c.name!!
 		}
 	}
+}
+
+
+@RestController
+class CustomerRestController(val customerSvc: CustomerService) {
+
+	@GetMapping("/customers")
+	fun customers() = this.customerSvc.all()
+
+
 }
 
 /*
