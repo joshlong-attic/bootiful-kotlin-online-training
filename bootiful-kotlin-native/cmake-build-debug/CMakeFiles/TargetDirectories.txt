@@ -1,0 +1,4 @@
+/Users/joshlong/Desktop/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/joshlong/Desktop/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/joshlong/Desktop/untitled/cmake-build-debug/CMakeFiles/HelloWorld.kexe.dir
+/Users/joshlong/Desktop/untitled/cmake-build-debug/CMakeFiles/HelloWorld.compile.dir

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+58b7354a456debe85078c06d5364492f CMakeFiles/HelloWorld.compile
+e0648c7499b1a850e39d5e10a024caab CMakeFiles/HelloWorld_TEMP.kexe

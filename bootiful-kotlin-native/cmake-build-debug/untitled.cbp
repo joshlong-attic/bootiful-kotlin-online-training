@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\KotlinCMakeModule\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/joshlong/Desktop/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/joshlong/Desktop/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/joshlong/Desktop/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld.kexe">
+				<Option output="/Users/joshlong/Desktop/untitled/cmake-build-debug/HelloWorld.kexe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joshlong/Desktop/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld.kexe"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld.kexe/fast">
+				<Option output="/Users/joshlong/Desktop/untitled/cmake-build-debug/HelloWorld.kexe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joshlong/Desktop/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld.kexe/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld.compile">
+				<Option working_dir="/Users/joshlong/Desktop/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld.compile"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/joshlong/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/joshlong/Desktop/untitled/hello.kt">
+			<Option target="HelloWorld.kexe"/>
+			<Option target="HelloWorld.compile"/>
+		</Unit>
+		<Unit filename="/Users/joshlong/Desktop/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/joshlong/Desktop/untitled/KotlinCMakeModule/CMakeDetermineKotlinCompiler.cmake">
+			<Option virtualFolder="CMake Files\KotlinCMakeModule\"/>
+		</Unit>
+		<Unit filename="/Users/joshlong/Desktop/untitled/KotlinCMakeModule/CMakeKotlinCompiler.cmake.in">
+			<Option virtualFolder="CMake Files\KotlinCMakeModule\"/>
+		</Unit>
+		<Unit filename="/Users/joshlong/Desktop/untitled/KotlinCMakeModule/CMakeKotlinInformation.cmake">
+			<Option virtualFolder="CMake Files\KotlinCMakeModule\"/>
+		</Unit>
+		<Unit filename="/Users/joshlong/Desktop/untitled/KotlinCMakeModule/CMakeTestKotlinCompiler.cmake">
+			<Option virtualFolder="CMake Files\KotlinCMakeModule\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
