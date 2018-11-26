@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.fu:spring-fu-webflux-coroutines:0.0.3.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu/spring-fu-webflux-coroutines/0.0.3.BUILD-SNAPSHOT/1aae1886c40eceae1f82feb89dc654b33c6f27a5/spring-fu-webflux-coroutines-0.0.3.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu/spring-fu-webflux-coroutines/0.0.3.BUILD-SNAPSHOT/81ff87348d6b12da3456107235529acf37a3f8c4/spring-fu-webflux-coroutines-0.0.3.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu/spring-fu-webflux-coroutines/0.0.3.BUILD-SNAPSHOT/b2990e4a78e55ced9d933268ec1a7553914c9c75/spring-fu-webflux-coroutines-0.0.3.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

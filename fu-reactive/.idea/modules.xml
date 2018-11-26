@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/reactive-webapp.iml" filepath="$PROJECT_DIR$/reactive-webapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactive-webapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/reactive-webapp_main.iml" group="reactive-webapp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactive-webapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/reactive-webapp_test.iml" group="reactive-webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1558162319/jafu-reactive-minimal.iml" filepath="$PROJECT_DIR$/.idea/modules/1558162319/jafu-reactive-minimal.iml" group="jafu-reactive-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1558162319/jafu-reactive-minimal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1558162319/jafu-reactive-minimal_main.iml" group="jafu-reactive-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1558162319/jafu-reactive-minimal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1558162319/jafu-reactive-minimal_test.iml" group="jafu-reactive-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1908952228/kofu-coroutines-minimal.iml" filepath="$PROJECT_DIR$/.idea/modules/1908952228/kofu-coroutines-minimal.iml" group="kofu-coroutines-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1908952228/kofu-coroutines-minimal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1908952228/kofu-coroutines-minimal_main.iml" group="kofu-coroutines-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1908952228/kofu-coroutines-minimal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1908952228/kofu-coroutines-minimal_test.iml" group="kofu-coroutines-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2080669557/kofu-coroutines-mongodb.iml" filepath="$PROJECT_DIR$/.idea/modules/2080669557/kofu-coroutines-mongodb.iml" group="kofu-coroutines-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2080669557/kofu-coroutines-mongodb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/2080669557/kofu-coroutines-mongodb_main.iml" group="kofu-coroutines-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2080669557/kofu-coroutines-mongodb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/2080669557/kofu-coroutines-mongodb_test.iml" group="kofu-coroutines-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1536966754/kofu-reactive-graal.iml" filepath="$PROJECT_DIR$/.idea/modules/1536966754/kofu-reactive-graal.iml" group="kofu-reactive-graal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1536966754/kofu-reactive-graal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1536966754/kofu-reactive-graal_main.iml" group="kofu-reactive-graal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1536966754/kofu-reactive-graal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1536966754/kofu-reactive-graal_test.iml" group="kofu-reactive-graal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/340941378/kofu-reactive-minimal.iml" filepath="$PROJECT_DIR$/.idea/modules/340941378/kofu-reactive-minimal.iml" group="kofu-reactive-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/340941378/kofu-reactive-minimal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/340941378/kofu-reactive-minimal_main.iml" group="kofu-reactive-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/340941378/kofu-reactive-minimal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/340941378/kofu-reactive-minimal_test.iml" group="kofu-reactive-minimal" />
+      <module fileurl="file://$PROJECT_DIR$/kofu-reactive-mongodb.iml" filepath="$PROJECT_DIR$/kofu-reactive-mongodb.iml" group="kofu-reactive-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kofu-reactive-mongodb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kofu-reactive-mongodb_main.iml" group="kofu-reactive-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kofu-reactive-mongodb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kofu-reactive-mongodb_test.iml" group="kofu-reactive-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1430323606/spring-fu-samples.iml" filepath="$PROJECT_DIR$/.idea/modules/-1430323606/spring-fu-samples.iml" />
     </modules>
   </component>
 </project>

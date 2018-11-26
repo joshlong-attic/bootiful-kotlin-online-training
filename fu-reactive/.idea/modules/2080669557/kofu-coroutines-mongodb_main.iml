@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":kofu-coroutines-mongodb:main" external.linked.project.path="$MODULE_DIR$/../../../../kofu-coroutines-mongodb" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="spring-fu-samples" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-java-parameters -Xjsr305=strict -Xjvm-default=enable" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../kofu-coroutines-mongodb/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.fu/spring-fu-kofu/0.0.3.BUILD-SNAPSHOT/a3e94d2c179be19ac7feb428368f16f2635112f1/spring-fu-kofu-0.0.3.BUILD-SNAPSHOT.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/2.1.0.RELEASE/spring-boot-starter-webflux-2.1.0.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-starter-mustache/2.1.0.RELEASE/spring-boot-starter-mustache-2.1.0.RELEASE.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.springframework.fu/spring-fu-webflux-coroutines/0.0.3.BUILD-SNAPSHOT/1aae1886c40eceae1f82feb89dc654b33c6f27a5/spring-fu-webflux-coroutines-0.0.3.BUILD-SNAPSHOT.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.springframework.fu/spring-fu-data-mongodb-coroutines/0.0.3.BUILD-SNAPSHOT/35ca3f4f77cef4eecd024b1c85b8f110718e4395/spring-fu-data-mongodb-coroutines-0.0.3.BUILD-SNAPSHOT.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/module/jackson-module-kotlin/2.9.7/jackson-module-kotlin-2.9.7.jar:/Users/joshlong/.m2/repository/de/flapdoodle/embed/de.flapdoodle.embed.mongo/2.1.1/de.flapdoodle.embed.mongo-2.1.1.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.0.RELEASE/spring-boot-starter-json-2.1.0.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.0.RELEASE/spring-boot-starter-2.1.0.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.10/71d0fa967493eb76648b575edf1762cb2d0c7f10/kotlin-stdlib-jdk8-1.3.10.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.1.0.RELEASE/spring-boot-starter-reactor-netty-2.1.0.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-webflux/5.1.2.RELEASE/spring-webflux-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/synchronoss/cloud/nio-multipart-parser/1.1.0/nio-multipart-parser-1.1.0.jar:/Users/joshlong/.m2/repository/com/samskivert/jmustache/1.14/jmustache-1.14.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactor/1.0.1/cd76ec1db53ef90da3ca6255a6f05ad2aafa5289/kotlinx-coroutines-reactor-1.0.1.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactive/1.0.1/3c45e91ec7635e9a7cab2ef891088e4b55b9d19a/kotlinx-coroutines-reactive-1.0.1.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.0.1/f33e8dab753f33d1bbb07cca664fd6f13d993d7e/kotlinx-coroutines-core-1.0.1.jar:/Users/joshlong/.m2/repository/org/springframework/data/spring-data-mongodb/2.1.2.RELEASE/spring-data-mongodb-2.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.7/jackson-datatype-jdk8-2.9.7.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.7/jackson-datatype-jsr310-2.9.7.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.7/jackson-module-parameter-names-2.9.7.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.10/dd02865be0351707554b16a896b766b2396cdafa/kotlin-reflect-1.3.10.jar:/Users/joshlong/.m2/repository/de/flapdoodle/embed/de.flapdoodle.embed.process/2.0.5/de.flapdoodle.embed.process-2.0.5.jar:/Users/joshlong/.m2/repository/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-tx/5.1.2.RELEASE/spring-tx-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/data/spring-data-commons/2.1.2.RELEASE/spring-data-commons-2.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-expression/5.1.2.RELEASE/spring-expression-5.1.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.10/4d147bf43060dc43d61b096e24da1e67dfe0c032/kotlin-stdlib-jdk7-1.3.10.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar:/Users/joshlong/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.0.RELEASE/spring-boot-starter-logging-2.1.0.RELEASE.jar:/Users/joshlong/.m2/repository/io/projectreactor/netty/reactor-netty/0.8.2.RELEASE/reactor-netty-0.8.2.RELEASE.jar:/Users/joshlong/.m2/repository/io/projectreactor/reactor-core/3.2.2.RELEASE/reactor-core-3.2.2.RELEASE.jar:/Users/joshlong/.m2/repository/org/synchronoss/cloud/nio-stream-storage/1.1.3/nio-stream-storage-1.1.3.jar:/Users/joshlong/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/joshlong/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar:/Users/joshlong/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/joshlong/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.0.1/679991d1b388fd9392eeb3d63b10b3f4c284f389/kotlinx-coroutines-core-common-1.0.1.jar:/Users/joshlong/.m2/repository/org/mongodb/mongo-java-driver/3.8.2/mongo-java-driver-3.8.2.jar:/Users/joshlong/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar:/Users/joshlong/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/joshlong/.m2/repository/net/java/dev/jna/jna-platform/4.5.2/jna-platform-4.5.2.jar:/Users/joshlong/.m2/repository/net/java/dev/jna/jna/4.5.2/jna-4.5.2.jar:/Users/joshlong/.m2/repository/org/apache/commons/commons-compress/1.10/commons-compress-1.10.jar:/Users/joshlong/.m2/repository/org/springframework/spring-jcl/5.1.2.RELEASE/spring-jcl-5.1.2.RELEASE.jar:/Users/joshlong/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar:/Users/joshlong/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/joshlong/.m2/repository/io/netty/netty-codec-http2/4.1.29.Final/netty-codec-http2-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-handler-proxy/4.1.29.Final/netty-handler-proxy-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-codec-http/4.1.29.Final/netty-codec-http-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-handler/4.1.29.Final/netty-handler-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-transport-native-epoll/4.1.29.Final/netty-transport-native-epoll-4.1.29.Final-linux-x86_64.jar:/Users/joshlong/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/joshlong/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/joshlong/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:/Users/joshlong/.m2/repository/io/netty/netty-codec-socks/4.1.29.Final/netty-codec-socks-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-codec/4.1.29.Final/netty-codec-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.29.Final/netty-transport-native-unix-common-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-transport/4.1.29.Final/netty-transport-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-buffer/4.1.29.Final/netty-buffer-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-resolver/4.1.29.Final/netty-resolver-4.1.29.Final.jar:/Users/joshlong/.m2/repository/io/netty/netty-common/4.1.29.Final/netty-common-4.1.29.Final.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="kofu-coroutines-mongodb" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../../../../kofu-coroutines-mongodb/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../kofu-coroutines-mongodb/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../kofu-coroutines-mongodb/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../kofu-coroutines-mongodb/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu:spring-fu-kofu:0.0.3.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-webflux:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-mustache:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu:spring-fu-webflux-coroutines:0.0.3.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.fu:spring-fu-data-mongodb-coroutines:0.0.3.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.fu:spring-fu-autoconfigure-adapter:0.0.3.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-reactor-netty:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.synchronoss.cloud:nio-multipart-parser:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-webflux:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-web:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-mongodb:2.1.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.samskivert:jmustache:1.14" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mongodb:mongodb-driver-reactivestreams:1.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: de.flapdoodle.embed:de.flapdoodle.embed.process:2.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-tx:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.data:spring-data-commons:2.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-beans:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty:0.8.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-expression:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.2.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.11.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.yaml:snakeyaml:1.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.synchronoss.cloud:nio-stream-storage:1.1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mongodb:mongo-java-driver:3.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mongodb:mongodb-driver-async:3.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-lang3:3.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna-platform:4.5.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna:4.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-compress:1.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-jcl:5.1.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-handler:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mongodb:mongodb-driver-core:3.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mongodb:bson:3.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-codec-socks:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-resolver:4.1.29.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-common:4.1.29.Final" level="project" />
+  </component>
+</module>

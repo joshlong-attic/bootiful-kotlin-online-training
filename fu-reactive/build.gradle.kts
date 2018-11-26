@@ -2,28 +2,30 @@ import org.gradle.kotlin.dsl.version
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.jetbrains.kotlin.jvm") version "1.2.51"
-	id("io.spring.dependency-management") version "1.0.5.RELEASE"
-	id("org.springframework.boot") version "2.0.3.RELEASE"
-}
-
-dependencyManagement {
-	imports {
-		mavenBom("org.springframework.fu:spring-fu-dependencies:0.0.1.BUILD-SNAPSHOT")
-	}
+	id("org.jetbrains.kotlin.jvm") version "1.3.10"
+	id("io.spring.dependency-management") version "1.0.6.RELEASE"
+	id("org.springframework.boot") version "2.1.0.RELEASE"
 }
 
 dependencies {
-	implementation("org.springframework.fu.module:spring-fu-logging-logback")
-	implementation("org.springframework.fu.module:spring-fu-webflux-netty")
-	implementation("org.springframework.fu.module:spring-fu-webflux-jackson")
-	implementation("org.springframework.fu.module:spring-fu-mongodb")
-	testImplementation("org.springframework.fu.module:spring-fu-test")
+	implementation("org.springframework.fu:spring-fu-kofu:0.0.3.BUILD-SNAPSHOT")
+
+	implementation("org.springframework.boot:spring-boot-starter-webflux")
+	implementation("org.springframework.boot:spring-boot-starter-mustache")
+	implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+	implementation("de.flapdoodle.embed:de.flapdoodle.embed.mongo")
+
+	testImplementation("org.junit.jupiter:junit-jupiter-api")
+	testImplementation("org.springframework:spring-test")
+	testImplementation("io.projectreactor:reactor-test")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
 
 repositories {
+	mavenLocal()
 	mavenCentral()
-	maven("https://repo.spring.io/libs-milestone")
+	maven("https://repo.spring.io/milestone")
 	maven("https://repo.spring.io/snapshot")
 }
 
@@ -36,4 +38,9 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
 	useJUnitPlatform()
+}
+
+configurations.all {
+	exclude(module = "javax.annotation-api")
+	exclude(module = "hibernate-validator")
 }
