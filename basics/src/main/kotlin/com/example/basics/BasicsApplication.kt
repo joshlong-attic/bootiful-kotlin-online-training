@@ -27,7 +27,7 @@ class BasicsApplication/* {
 	fun transactionTemplate(txManager: PlatformTransactionManager) = TransactionTemplate(txManager)
 }*/
 
-@Service
+//@Service
 @Transactional
 class ExposedCustomerService(private val transactionTemplate: TransactionTemplate) : CustomerService, InitializingBean {
 
@@ -69,7 +69,7 @@ object Customers : Table() {
 	val name = varchar("name", 255)
 }
 
-//@Service
+@Service
 class JdbcCustomerService(private val jdbcTemplate: JdbcTemplate) : CustomerService {
 
 	override fun all(): Collection<Customer> =
