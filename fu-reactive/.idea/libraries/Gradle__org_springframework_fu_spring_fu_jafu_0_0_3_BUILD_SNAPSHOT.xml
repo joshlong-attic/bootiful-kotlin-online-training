@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.springframework.fu:spring-fu-jafu:0.0.3.BUILD-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/fu/spring-fu-jafu/0.0.3.BUILD-SNAPSHOT/spring-fu-jafu-0.0.3.BUILD-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

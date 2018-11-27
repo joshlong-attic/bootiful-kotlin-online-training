@@ -2,18 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="jafu-reactive-minimal_main" target="11" />
-      <module name="jafu-reactive-minimal_test" target="11" />
-      <module name="kofu-coroutines-minimal_main" target="11" />
-      <module name="kofu-coroutines-minimal_test" target="11" />
-      <module name="kofu-coroutines-mongodb_main" target="11" />
-      <module name="kofu-coroutines-mongodb_test" target="11" />
-      <module name="kofu-reactive-graal_main" target="11" />
-      <module name="kofu-reactive-graal_test" target="11" />
-      <module name="kofu-reactive-minimal_main" target="11" />
-      <module name="kofu-reactive-minimal_test" target="11" />
-      <module name="kofu-reactive-mongodb_main" target="11" />
-      <module name="kofu-reactive-mongodb_test" target="11" />
+      <module name="fu-reactive.main" target="11" />
+      <module name="fu-reactive.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
