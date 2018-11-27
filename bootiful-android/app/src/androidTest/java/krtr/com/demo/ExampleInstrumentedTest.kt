@@ -1,4 +1,4 @@
-package krtr.com.myapplication
+package krtr.com.demo
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("krtr.com.myapplication", appContext.packageName)
+        assertEquals("krtr.com.demo", appContext.packageName)
     }
 }

@@ -1,4 +1,4 @@
-package krtr.com.myapplication
+package krtr.com.demo
 
 import org.junit.Test
 
