@@ -1,5 +1,15 @@
 [
   {
+    "login": "vsubramaniam",
+    "firstname": "Venkat",
+    "lastname": "Subramaniam"
+  },
+  {
+    "login": "jlong",
+    "firstname": "Josh",
+    "lastname": "Long"
+  },
+  {
     "login": "smaldini",
     "firstname": "Stéphane",
     "lastname": "Maldini"
