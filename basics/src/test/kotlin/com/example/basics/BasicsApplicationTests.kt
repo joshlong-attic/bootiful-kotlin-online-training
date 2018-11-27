@@ -17,13 +17,11 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers
 class BasicsApplicationTests(@Autowired private val mockMvc: MockMvc) {
 
 	@Test
-	fun contextLoads() {
-
-		this.mockMvc.perform(
-				MockMvcRequestBuilders.get("/customers"))
-				.andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON_UTF8))
-
-
+	fun get() {
+		this.mockMvc
+				.perform(MockMvcRequestBuilders.get("/customers"))
+				.andExpect(MockMvcResultMatchers.content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON_UTF8_VALUE))
+				.andExpect(MockMvcResultMatchers.jsonPath("@.[0].name").value("Tammie"))
 	}
 
 }

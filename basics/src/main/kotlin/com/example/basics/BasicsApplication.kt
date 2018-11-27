@@ -3,31 +3,60 @@ package com.example.basics
 import org.jetbrains.exposed.spring.SpringTransactionManager
 import org.jetbrains.exposed.sql.*
 import org.springframework.beans.factory.InitializingBean
-import org.springframework.boot.ApplicationArguments
-import org.springframework.boot.ApplicationRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.builder.SpringApplicationBuilder
-import org.springframework.context.support.beans
-import org.springframework.jdbc.core.JdbcTemplate
-import org.springframework.jdbc.core.queryForObject
+import org.springframework.boot.context.event.ApplicationReadyEvent
+import org.springframework.boot.runApplication
+import org.springframework.context.annotation.Bean
+import org.springframework.context.event.EventListener
 import org.springframework.stereotype.Component
 import org.springframework.stereotype.Service
+import org.springframework.transaction.PlatformTransactionManager
 import org.springframework.transaction.annotation.Transactional
 import org.springframework.transaction.support.TransactionTemplate
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
+import javax.sql.DataSource
 
 @SpringBootApplication
-class BasicsApplication/* {
+class BasicsApplication {
 
 	@Bean
-	fun exposedSpringTransactionManager(ds: DataSource) = SpringTransactionManager(ds)
+	fun exposedTransactionManager(ds: DataSource) = SpringTransactionManager(ds)
 
 	@Bean
-	fun transactionTemplate(txManager: PlatformTransactionManager) = TransactionTemplate(txManager)
-}*/
+	fun transactionTemplate(txm: PlatformTransactionManager) = TransactionTemplate(txm)
+}
 
-//@Service
+fun main(args: Array<String>) {
+	runApplication<BasicsApplication>(*args)
+}
+
+
+object Customers : Table() {
+	val id = long("id").autoIncrement().primaryKey()
+	val name = varchar("name", 255)
+}
+
+@Component
+class SampleDataInitializer(private val customerService: CustomerService) {
+
+	@EventListener(ApplicationReadyEvent::class)
+	fun initialize() {
+
+		val names = arrayOf("Tammie", "Kimly", "Madhura", "Olga", "Cornelia", "Jennifer", "Michelle", "Eva")
+		names.map { Customer(name = it) }
+				.forEach { customerService.insert(it) }
+
+		customerService.all()
+				.forEach {
+					val id: Long = it.id!!
+					val customer = customerService.byId(id)
+					println(customer)
+				}
+	}
+}
+
+@Service
 @Transactional
 class ExposedCustomerService(private val transactionTemplate: TransactionTemplate) : CustomerService, InitializingBean {
 
@@ -37,23 +66,20 @@ class ExposedCustomerService(private val transactionTemplate: TransactionTemplat
 		}
 	}
 
-	override fun all(): Collection<Customer> = Customers
-			.selectAll()
-			.map { Customer(id = it[Customers.id], name = it[Customers.name]) }
-
 	override fun byId(id: Long): Customer? =
 			Customers
-					.select {
-						Customers.id.eq(id)
-					}
+					.select { Customers.id.eq(id) }
 					.map { Customer(id = it[Customers.id], name = it[Customers.name]) }
 					.singleOrNull()
 
 	override fun insert(customer: Customer) {
-		Customers.insert {
-			it[Customers.name] = customer.name
-		}
+		Customers.insert { it[Customers.name] = customer.name }
 	}
+
+	override fun all(): Collection<Customer> =
+			Customers
+					.selectAll()
+					.map { Customer(id = it[Customers.id], name = it[Customers.name]) }
 }
 
 
@@ -61,22 +87,25 @@ class ExposedCustomerService(private val transactionTemplate: TransactionTemplat
 class CustomerRestController(private val customerService: CustomerService) {
 
 	@GetMapping("/customers")
-	fun all() = this.customerService.all()
+	fun get() = this.customerService.all()
+
 }
 
-object Customers : Table() {
-	val id = long("id").autoIncrement().primaryKey()
-	val name = varchar("name", 255)
-}
-
+/*
 @Service
 class JdbcCustomerService(private val jdbcTemplate: JdbcTemplate) : CustomerService {
 
+	private fun rsToCustomer(rs: ResultSet) = Customer(id = rs.getLong("ID"), name = rs.getString("NAME"))
+
 	override fun all(): Collection<Customer> =
-			this.jdbcTemplate.query("select * from CUSTOMERS") { rs, _ -> Customer(rs.getLong("ID"), rs.getString("NAME")) }
+			this.jdbcTemplate.query("select * from CUSTOMERS") { rs, i ->
+				rsToCustomer(rs)
+			}
 
 	override fun byId(id: Long): Customer? =
-			this.jdbcTemplate.queryForObject("select * from CUSTOMERS where ID = ?", id) { rs, _ -> Customer(rs.getLong("ID"), rs.getString("NAME")) }
+			this.jdbcTemplate.queryForObject("select * from CUSTOMERS where ID =?", id) { rs, i ->
+				rsToCustomer(rs)
+			}
 
 	override fun insert(customer: Customer) {
 		this.jdbcTemplate.execute("insert into CUSTOMERS(NAME) values(?)") {
@@ -84,53 +113,13 @@ class JdbcCustomerService(private val jdbcTemplate: JdbcTemplate) : CustomerServ
 			it.execute()
 		}
 	}
-
 }
-
-@Component
-class DataRunner(private val customerService: CustomerService) : ApplicationRunner {
-
-	override fun run(args: ApplicationArguments?) {
-		arrayOf("Josh", "Madhura", "Jennifer", "Cornelia", "Mark", "Dave", "Stephane", "Brian")
-				.map { Customer(name = it) }
-				.forEach { customerService.insert(it) }
-
-		customerService.all().forEach {
-			val id: Long = it.id!!
-			println(customerService.byId(id))
-		}
-	}
-}
+*/
 
 interface CustomerService {
-
 	fun all(): Collection<Customer>
 	fun byId(id: Long): Customer?
 	fun insert(customer: Customer)
 }
 
 data class Customer(val id: Long? = null, val name: String)
-
-val beans = beans {
-
-	bean {
-		SpringTransactionManager(ref())
-	}
-
-	bean {
-		TransactionTemplate(ref())
-	}
-
-}
-
-fun main(args: Array<String>) {
-
-
-	SpringApplicationBuilder()
-			.initializers(beans)
-			.sources(BasicsApplication::class.java)
-			.run(*args)
-
-//	SpringApplication.run(BasicsApplication::class.java, *args)
-}
-
