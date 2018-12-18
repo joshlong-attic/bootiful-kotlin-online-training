@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-kotlin/2.9.7/jackson-module-kotlin-2.9.7.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

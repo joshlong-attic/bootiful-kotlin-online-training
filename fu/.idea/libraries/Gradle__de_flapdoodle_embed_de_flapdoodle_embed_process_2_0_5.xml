@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: de.flapdoodle.embed:de.flapdoodle.embed.process:2.0.5">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/de/flapdoodle/embed/de.flapdoodle.embed.process/2.0.5/de.flapdoodle.embed.process-2.0.5.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

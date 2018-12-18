@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.mongodb:mongodb-driver-async:3.8.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-async/3.8.2/mongodb-driver-async-3.8.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
