@@ -120,5 +120,10 @@
         </plugins>
     </build>
 
-
+    <repositories>
+        <repository>
+            <id>bintray</id>
+            <url>https://dl.bintray.com/kotlin/exposed/</url>
+        </repository>
+    </repositories>
 </project>
