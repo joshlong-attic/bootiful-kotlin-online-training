@@ -16,7 +16,7 @@ val globalId = AtomicLong()
 
 data class Customer(val id: Int = 0, val name: String)
 
-fun main(args: Array<String>) {
+fun main() {
 
 	//  extension methods
 	fun Customer.isValid(): Boolean = this.name.isNotEmpty()
@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
 	// overloaded methods
 	val names = mutableListOf<String>()
 	names += "Bob"
-	println("the size of the names array is ${names.size} ")
+	println("the size of the names array is ${names.size}")
 
 	// functions as a first class citizen
 	val myFunc: (String) -> Customer = { Customer(name = it) }
